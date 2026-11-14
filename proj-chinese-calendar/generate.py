@@ -75,7 +75,7 @@ def render_calendar(items, name, now):
             "DTSTAMP:" + stamp,
             f"DTSTART;VALUE=DATE:{day:%Y%m%d}",
             f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
-            "SUMMARY:" + escape_text("黄历 · " + item["lunar_date"]),
+            "SUMMARY:" + escape_text(" · ".join(reversed(item["ganzhi"].split()))),
             "DESCRIPTION:" + escape_text(description(item)),
             "TRANSP:TRANSPARENT", "END:VEVENT",
         ])

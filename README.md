@@ -6,7 +6,7 @@
 | --- | --- |
 | 节日补充（中英双语） | https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics |
 | 节日补充（纯中文） | https://wqxyuhuai.github.io/festival-calendar/festival_zh.ics |
-| 每日黄历 | https://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics |
+| 每日黄历 | https://1164337522l-maker.github.io/festival-calendar/chinese-calendar/daily.ics |
 
 原节日订阅地址永久保留，已订阅用户无需重新添加。请以「订阅日历」方式添加，下载导入不能持续更新。
 中英双语和纯中文节日订阅由同一份节日数据同步生成，后续更新无需分别维护。

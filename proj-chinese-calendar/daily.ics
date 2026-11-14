@@ -8,22 +8,11 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chinese-calendar-2026-11-07@festival-calendar
-DTSTAMP:20261114T002137Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:黄历 · 九月廿九
-DESCRIPTION:📅 农历\n九月廿九\n\n🗓️ 干支\n丙午年 己亥
- 月 乙酉日\n\n✅ 宜\n解除、馀事勿取\n\n❌ 忌\n无\n\n🔎 
- 值神\n朱雀 · 黑道日 · 凶
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:chinese-calendar-2026-11-08@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-SUMMARY:黄历 · 九月三十
+SUMMARY:丙戌日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n九月三十\n\n🗓️ 干支\n丙午年 己亥
  月 丙戌日\n\n✅ 宜\n安床、祭祀、开池、补垣、入殓、移
  柩、破土、启钻\n\n❌ 忌\n入宅、移徙、嫁娶、掘井、作
@@ -33,10 +22,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-09@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-SUMMARY:黄历 · 十月初一
+SUMMARY:丁亥日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初一\n\n🗓️ 干支\n丙午年 己亥
  月 丁亥日\n\n✅ 宜\n祭祀、沐浴、馀事勿取\n\n❌ 忌\n无\n
  \n🔎 值神\n天德 · 黄道日 · 吉
@@ -44,10 +33,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-10@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-SUMMARY:黄历 · 十月初二
+SUMMARY:戊子日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初二\n\n🗓️ 干支\n丙午年 己亥
  月 戊子日\n\n✅ 宜\n嫁娶、开光、出行、解除、出火、拆
  卸、修造、进人口、动土、入宅、移徙、栽种、纳畜、
@@ -57,10 +46,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-11@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-SUMMARY:黄历 · 十月初三
+SUMMARY:己丑日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初三\n\n🗓️ 干支\n丙午年 己亥
  月 己丑日\n\n✅ 宜\n开光、裁衣、安门、会亲友、安床、
  结网、理发\n\n❌ 忌\n嫁娶、冠笄、出行、祈福、安葬、
@@ -70,10 +59,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-12@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:黄历 · 十月初四
+SUMMARY:庚寅日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初四\n\n🗓️ 干支\n丙午年 己亥
  月 庚寅日\n\n✅ 宜\n嫁娶、开光、出行、出火、拆卸、修
  造、动土、入宅、移徙、安床、上梁、开市、交易、立
@@ -83,10 +72,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-13@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:黄历 · 十月初五
+SUMMARY:辛卯日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初五\n\n🗓️ 干支\n丙午年 己亥
  月 辛卯日\n\n✅ 宜\n嫁娶、祭祀、祈福、求嗣、开光、出
  火、出行、拆卸、开市、交易、立券、挂匾、伐木、入
@@ -96,10 +85,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-14@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:黄历 · 十月初六
+SUMMARY:壬辰日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初六\n\n🗓️ 干支\n丙午年 己亥
  月 壬辰日\n\n✅ 宜\n祭祀、理发、针灸、解除、进人口、
  整手足甲\n\n❌ 忌\n嫁娶、动土、造船、开池、掘井、出
@@ -109,10 +98,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-15@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:黄历 · 十月初七
+SUMMARY:癸巳日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初七\n\n🗓️ 干支\n丙午年 己亥
  月 癸巳日\n\n✅ 宜\n破屋、坏垣、求医、治病、馀事勿取
  \n\n❌ 忌\n嫁娶、安葬\n\n🔎 值神\n勾陈 · 黑道日 · 凶
@@ -120,10 +109,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-16@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-SUMMARY:黄历 · 十月初八
+SUMMARY:甲午日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初八\n\n🗓️ 干支\n丙午年 己亥
  月 甲午日\n\n✅ 宜\n纳采、订盟、嫁娶、祭祀、祈福、雕
  刻、移徙、开市、入宅、出行、动土、会亲友、入学、
@@ -134,10 +123,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-17@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-SUMMARY:黄历 · 十月初九
+SUMMARY:乙未日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初九\n\n🗓️ 干支\n丙午年 己亥
  月 乙未日\n\n✅ 宜\n祭祀、祈福、求嗣、开光、解除、伐
  木、拆卸、修造、栽种、纳畜、安葬、修坟、立碑\n\n❌ 
@@ -147,10 +136,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-18@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:黄历 · 十月初十
+SUMMARY:丙申日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月初十\n\n🗓️ 干支\n丙午年 己亥
  月 丙申日\n\n✅ 宜\n沐浴、扫舍、捕捉、畋猎、解除、塞
  穴、馀事勿取\n\n❌ 忌\n嫁娶、入宅、开市、安床、破土
@@ -159,10 +148,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-19@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:黄历 · 十月十一
+SUMMARY:丁酉日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十一\n\n🗓️ 干支\n丙午年 己亥
  月 丁酉日\n\n✅ 宜\n嫁娶、冠笄、祭祀、祈福、求嗣、斋
  醮、开光、出行、解除、动土、开市、交易、立券、挂
@@ -173,10 +162,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-20@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-SUMMARY:黄历 · 十月十二
+SUMMARY:戊戌日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十二\n\n🗓️ 干支\n丙午年 己亥
  月 戊戌日\n\n✅ 宜\n合帐、裁衣、嫁娶、安床、入殓、移
  柩、破土、造畜稠\n\n❌ 忌\n置产、造船、开光、掘井、
@@ -185,10 +174,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-21@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:黄历 · 十月十三
+SUMMARY:己亥日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十三\n\n🗓️ 干支\n丙午年 己亥
  月 己亥日\n\n✅ 宜\n解除、修饰垣墙、冠笄、出行、馀事
  勿取\n\n❌ 忌\n开市、动土、破土、嫁娶、安葬\n\n🔎 值
@@ -197,10 +186,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-22@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:黄历 · 十月十四
+SUMMARY:庚子日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十四\n\n🗓️ 干支\n丙午年 己亥
  月 庚子日\n\n✅ 宜\n纳采、订盟、嫁娶、祭祀、祈福、求
  嗣、开光、出行、解除、进人口、开市、立券、挂匾、
@@ -211,10 +200,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-23@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-SUMMARY:黄历 · 十月十五
+SUMMARY:辛丑日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十五\n\n🗓️ 干支\n丙午年 己亥
  月 辛丑日\n\n✅ 宜\n祭祀、塑绘、理发、会亲友、牧养、
  开池、造畜稠、畋猎、结网\n\n❌ 忌\n祈福、谢土、安葬
@@ -224,10 +213,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-24@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
-SUMMARY:黄历 · 十月十六
+SUMMARY:壬寅日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十六\n\n🗓️ 干支\n丙午年 己亥
  月 壬寅日\n\n✅ 宜\n出行、纳财、开市、交易、立券、动
  土、移徙、入宅、裁衣、会亲友、拆卸、进人口、安香
@@ -238,10 +227,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-25@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:黄历 · 十月十七
+SUMMARY:癸卯日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十七\n\n🗓️ 干支\n丙午年 己亥
  月 癸卯日\n\n✅ 宜\n嫁娶、纳采、订盟、祭祀、斋醮、开
  光、安香、出火、出行、拆卸、动土、祈福、进人口、
@@ -252,10 +241,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-26@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:黄历 · 十月十八
+SUMMARY:甲辰日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十八\n\n🗓️ 干支\n丙午年 己亥
  月 甲辰日\n\n✅ 宜\n嫁娶、纳采、订盟、祭祀、开光、出
  行、解除、伐木、出火、入宅、移徙、拆卸、修造、栽
@@ -265,10 +254,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-27@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-SUMMARY:黄历 · 十月十九
+SUMMARY:乙巳日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月十九\n\n🗓️ 干支\n丙午年 己亥
  月 乙巳日\n\n✅ 宜\n祭祀、解除、破屋、坏垣、求医、治
  病、馀事勿取\n\n❌ 忌\n嫁娶、安葬\n\n🔎 值神\n勾陈 · 
@@ -277,10 +266,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-28@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:黄历 · 十月二十
+SUMMARY:丙午日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月二十\n\n🗓️ 干支\n丙午年 己亥
  月 丙午日\n\n✅ 宜\n祭祀、扫舍、破土、安葬、除服、成
  服、启钻、移柩、入殓、立碑、馀事勿取\n\n❌ 忌\n嫁娶
@@ -289,10 +278,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-29@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:黄历 · 十月廿一
+SUMMARY:丁未日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿一\n\n🗓️ 干支\n丙午年 己亥
  月 丁未日\n\n✅ 宜\n订盟、纳采、会亲友、祭祀、祈福、
  修造、动土、安机械、破土、安葬\n\n❌ 忌\n嫁娶、移徙
@@ -301,10 +290,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-11-30@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-SUMMARY:黄历 · 十月廿二
+SUMMARY:戊申日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿二\n\n🗓️ 干支\n丙午年 己亥
  月 戊申日\n\n✅ 宜\n祭祀、沐浴、捕捉、畋猎、结网、扫
  舍\n\n❌ 忌\n嫁娶、纳采、订盟、安床、动土、破土、安
@@ -313,10 +302,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-01@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:黄历 · 十月廿三
+SUMMARY:己酉日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿三\n\n🗓️ 干支\n丙午年 己亥
  月 己酉日\n\n✅ 宜\n开市、纳财、出行、祭祀、祈福、求
  嗣、斋醮、问名、入学、起基、定磉、置产、开渠、掘
@@ -327,10 +316,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-02@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:黄历 · 十月廿四
+SUMMARY:庚戌日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿四\n\n🗓️ 干支\n丙午年 己亥
  月 庚戌日\n\n✅ 宜\n祭祀、理发、置产、塞穴、除服、成
  服、移柩、入殓、破土、安葬\n\n❌ 忌\n嫁娶、入宅、安
@@ -339,10 +328,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-03@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:黄历 · 十月廿五
+SUMMARY:辛亥日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿五\n\n🗓️ 干支\n丙午年 己亥
  月 辛亥日\n\n✅ 宜\n祭祀、沐浴、出行、馀事勿取\n\n❌ 
  忌\n开市、动土、破土、行丧、安葬\n\n🔎 值神\n天德 · 
@@ -351,10 +340,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-04@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:黄历 · 十月廿六
+SUMMARY:壬子日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿六\n\n🗓️ 干支\n丙午年 己亥
  月 壬子日\n\n✅ 宜\n嫁娶、造车器、出行、会亲友、移徙
  、入宅、修造、动土、雕刻、开光、安香、出火、理发
@@ -365,10 +354,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-05@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-SUMMARY:黄历 · 十月廿七
+SUMMARY:癸丑日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿七\n\n🗓️ 干支\n丙午年 己亥
  月 癸丑日\n\n✅ 宜\n塑绘、会亲友、安机械、塞穴、结网
  、裁衣、经络\n\n❌ 忌\n嫁娶、开市、祈福、斋醮、安葬\
@@ -377,10 +366,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-06@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-SUMMARY:黄历 · 十月廿八
+SUMMARY:甲寅日 · 己亥月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿八\n\n🗓️ 干支\n丙午年 己亥
  月 甲寅日\n\n✅ 宜\n纳采、移徙、纳财、开市、交易、立
  券、入宅、修造、动土、竖柱、起基、定磉、造庙、安
@@ -391,10 +380,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-07@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
-SUMMARY:黄历 · 十月廿九
+SUMMARY:乙卯日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n十月廿九\n\n🗓️ 干支\n丙午年 庚子
  月 乙卯日\n\n✅ 宜\n祭祀、修饰垣墙、馀事勿取\n\n❌ 忌\
  n诸事不宜\n\n🔎 值神\n玉堂 · 黄道日 · 吉
@@ -402,10 +391,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-08@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-SUMMARY:黄历 · 十月三十
+SUMMARY:丙辰日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n十月三十\n\n🗓️ 干支\n丙午年 庚子
  月 丙辰日\n\n✅ 宜\n入宅、安床、开光、祭祀、出火、拆
  卸、动土、挂匾、入殓、破土、安葬、纳畜\n\n❌ 忌\n嫁
@@ -415,10 +404,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-09@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
-SUMMARY:黄历 · 冬月初一
+SUMMARY:丁巳日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初一\n\n🗓️ 干支\n丙午年 庚子
  月 丁巳日\n\n✅ 宜\n祭祀、解除、馀事勿取\n\n❌ 忌\n诸
  事不宜\n\n🔎 值神\n玄武 · 黑道日 · 凶
@@ -426,10 +415,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-10@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-SUMMARY:黄历 · 冬月初二
+SUMMARY:戊午日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初二\n\n🗓️ 干支\n丙午年 庚子
  月 戊午日\n\n✅ 宜\n破屋、坏垣、祭祀、沐浴、馀事勿取
  \n\n❌ 忌\n诸事不宜\n\n🔎 值神\n司命 · 黄道日 · 吉
@@ -437,10 +426,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-11@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-SUMMARY:黄历 · 冬月初三
+SUMMARY:己未日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初三\n\n🗓️ 干支\n丙午年 庚子
  月 己未日\n\n✅ 宜\n安床、祭祀、祈福、求嗣、冠笄、伐
  木、架马、动土、开池、开厕、结网、入殓、除服、成
@@ -450,10 +439,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-12@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:黄历 · 冬月初四
+SUMMARY:庚申日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初四\n\n🗓️ 干支\n丙午年 庚子
  月 庚申日\n\n✅ 宜\n解除、扫舍、馀事勿取\n\n❌ 忌\n诸
  事不宜\n\n🔎 值神\n青龙 · 黄道日 · 吉
@@ -461,10 +450,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-13@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-SUMMARY:黄历 · 冬月初五
+SUMMARY:辛酉日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初五\n\n🗓️ 干支\n丙午年 庚子
  月 辛酉日\n\n✅ 宜\n祭祀、开光、理发、整手足甲、安床
  、作灶、扫舍、教牛马\n\n❌ 忌\n伐木、纳畜、破土、安
@@ -474,10 +463,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-14@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
-SUMMARY:黄历 · 冬月初六
+SUMMARY:壬戌日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初六\n\n🗓️ 干支\n丙午年 庚子
  月 壬戌日\n\n✅ 宜\n祭祀、祈福、求嗣、开光、拆卸、修
  造、动土、上梁、安床、置产、栽种、破土\n\n❌ 忌\n嫁
@@ -487,10 +476,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-15@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-SUMMARY:黄历 · 冬月初七
+SUMMARY:癸亥日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初七\n\n🗓️ 干支\n丙午年 庚子
  月 癸亥日\n\n✅ 宜\n沐浴、冠笄、补垣、塞穴、裁衣、修
  造、作梁、开柱眼、安碓磑、筑堤、开厕、断蚁\n\n❌ 忌
@@ -500,10 +489,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-16@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-SUMMARY:黄历 · 冬月初八
+SUMMARY:甲子日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初八\n\n🗓️ 干支\n丙午年 庚子
  月 甲子日\n\n✅ 宜\n交易、进人口、祭祀、沐浴、捕捉、
  入殓、除服、成服、安葬、谢土、启钻、修坟\n\n❌ 忌\n
@@ -513,10 +502,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-17@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-SUMMARY:黄历 · 冬月初九
+SUMMARY:乙丑日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初九\n\n🗓️ 干支\n丙午年 庚子
  月 乙丑日\n\n✅ 宜\n嫁娶、纳采、订盟、造车器、祭祀、
  祈福、造庙、安香、出火、出行、归宁、入学、入宅、
@@ -527,10 +516,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-18@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-SUMMARY:黄历 · 冬月初十
+SUMMARY:丙寅日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月初十\n\n🗓️ 干支\n丙午年 庚子
  月 丙寅日\n\n✅ 宜\n纳采、订盟、开市、交易、立券、出
  行、会亲友、安机械、竖柱、上梁、平治道涂、伐木、
@@ -542,10 +531,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-19@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:黄历 · 冬月十一
+SUMMARY:丁卯日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十一\n\n🗓️ 干支\n丙午年 庚子
  月 丁卯日\n\n✅ 宜\n祭祀、平治道涂、除服、成服、安葬
  、馀事勿取\n\n❌ 忌\n嫁娶、入宅、纳采、订盟、掘井\n\n
@@ -554,10 +543,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-20@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-SUMMARY:黄历 · 冬月十二
+SUMMARY:戊辰日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十二\n\n🗓️ 干支\n丙午年 庚子
  月 戊辰日\n\n✅ 宜\n纳采、订盟、祭祀、祈福、开光、安
  香、出火、出行、会亲友、安机械、修造、动土、竖柱
@@ -568,10 +557,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-21@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-SUMMARY:黄历 · 冬月十三
+SUMMARY:己巳日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十三\n\n🗓️ 干支\n丙午年 庚子
  月 己巳日\n\n✅ 宜\n嫁娶、冠笄、祭祀、祈福、求嗣、斋
  醮、进人口、会亲友、伐木、作梁、开柱眼、安床、掘
@@ -581,10 +570,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-22@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-SUMMARY:黄历 · 冬月十四
+SUMMARY:庚午日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十四\n\n🗓️ 干支\n丙午年 庚子
  月 庚午日\n\n✅ 宜\n破屋、坏垣、治病、馀事勿取\n\n❌ 
  忌\n移徙、入宅\n\n🔎 值神\n司命 · 黄道日 · 吉
@@ -592,10 +581,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-23@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
-SUMMARY:黄历 · 冬月十五
+SUMMARY:辛未日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十五\n\n🗓️ 干支\n丙午年 庚子
  月 辛未日\n\n✅ 宜\n安床、架马、祭祀、塑绘、开光、出
  行、理发、伐木、作梁、开柱眼、开厕、畋猎、破土、
@@ -606,10 +595,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-24@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
-SUMMARY:黄历 · 冬月十六
+SUMMARY:壬申日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十六\n\n🗓️ 干支\n丙午年 庚子
  月 壬申日\n\n✅ 宜\n嫁娶、祭祀、祈福、求嗣、开光、出
  行、解除、入宅、移徙、纳畜、入殓、破土、修坟、立
@@ -619,10 +608,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-25@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-SUMMARY:黄历 · 冬月十七
+SUMMARY:癸酉日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十七\n\n🗓️ 干支\n丙午年 庚子
  月 癸酉日\n\n✅ 宜\n祭祀、沐浴、理发、纳财、进人口、
  栽种、扫舍、捕捉、畋猎、结网\n\n❌ 忌\n会亲友、安葬
@@ -632,10 +621,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-26@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-SUMMARY:黄历 · 冬月十八
+SUMMARY:甲戌日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十八\n\n🗓️ 干支\n丙午年 庚子
  月 甲戌日\n\n✅ 宜\n纳采、订盟、祭祀、祈福、求嗣、塑
  绘、解除、拆卸、修造、动土、竖柱、上梁、安门、置
@@ -647,10 +636,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-27@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-SUMMARY:黄历 · 冬月十九
+SUMMARY:乙亥日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月十九\n\n🗓️ 干支\n丙午年 庚子
  月 乙亥日\n\n✅ 宜\n入宅、移徙、出行、进人口、修造、
  动土、起基、上梁、安门、造仓、补垣、塞穴、造畜稠\n
@@ -660,10 +649,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-28@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
-SUMMARY:黄历 · 冬月二十
+SUMMARY:丙子日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月二十\n\n🗓️ 干支\n丙午年 庚子
  月 丙子日\n\n✅ 宜\n造畜稠、教牛马\n\n❌ 忌\n入宅、移
  徙、分居、作灶、出火、安香、动土、嫁娶、掘井、扫
@@ -672,10 +661,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-29@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:黄历 · 冬月廿一
+SUMMARY:丁丑日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿一\n\n🗓️ 干支\n丙午年 庚子
  月 丁丑日\n\n✅ 宜\n订盟、纳采、造车器、祭祀、祈福、
  出行、安香、修造、动土、上梁、开市、交易、立券、
@@ -686,10 +675,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-30@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
-SUMMARY:黄历 · 冬月廿二
+SUMMARY:戊寅日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿二\n\n🗓️ 干支\n丙午年 庚子
  月 戊寅日\n\n✅ 宜\n订盟、纳采、会亲友、安机械、开光
  、修造、动土、竖柱、上梁、盖屋、起基、造桥、栽种
@@ -700,10 +689,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2026-12-31@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-SUMMARY:黄历 · 冬月廿三
+SUMMARY:己卯日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿三\n\n🗓️ 干支\n丙午年 庚子
  月 己卯日\n\n✅ 宜\n祭祀、平治道涂、修坟、除服、成服
  、馀事勿取\n\n❌ 忌\n移徙、入宅、嫁娶、掘井、安葬\n\n
@@ -712,10 +701,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-01@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
-SUMMARY:黄历 · 冬月廿四
+SUMMARY:庚辰日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿四\n\n🗓️ 干支\n丙午年 庚子
  月 庚辰日\n\n✅ 宜\n嫁娶、冠笄、祭祀、祈福、求嗣、雕
  刻、开光、安香、出行、入学、修造、动土、竖柱、上
@@ -727,10 +716,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-02@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
-SUMMARY:黄历 · 冬月廿五
+SUMMARY:辛巳日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿五\n\n🗓️ 干支\n丙午年 庚子
  月 辛巳日\n\n✅ 宜\n嫁娶、订盟、纳采、祭祀、祈福、求
  嗣、斋醮、安香、出火、修造、起基、盖屋、合脊、安
@@ -741,10 +730,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-03@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-SUMMARY:黄历 · 冬月廿六
+SUMMARY:壬午日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿六\n\n🗓️ 干支\n丙午年 庚子
  月 壬午日\n\n✅ 宜\n祭祀、沐浴、破屋、坏垣、馀事勿取
  \n\n❌ 忌\n嫁娶、移徙、入宅、探病、出行、盖屋\n\n🔎 
@@ -753,10 +742,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-04@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
-SUMMARY:黄历 · 冬月廿七
+SUMMARY:癸未日 · 庚子月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿七\n\n🗓️ 干支\n丙午年 庚子
  月 癸未日\n\n✅ 宜\n冠笄、纳财、掘井、开池、出火、安
  床、交易、立券、畋猎、结网、理发、放水\n\n❌ 忌\n安
@@ -766,10 +755,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-05@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-SUMMARY:黄历 · 冬月廿八
+SUMMARY:甲申日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿八\n\n🗓️ 干支\n丙午年 辛丑
  月 甲申日\n\n✅ 宜\n嫁娶、开市、交易、立券、开光、出
  行、出火、拆卸、修造、入宅、移徙、动土、破土、移
@@ -779,10 +768,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-06@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-SUMMARY:黄历 · 冬月廿九
+SUMMARY:乙酉日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n冬月廿九\n\n🗓️ 干支\n丙午年 辛丑
  月 乙酉日\n\n✅ 宜\n祭祀、入殓、破土、除服、成服、启
  钻、安葬、修坟、立碑、馀事勿取\n\n❌ 忌\n无\n\n🔎 值
@@ -791,10 +780,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-07@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
-SUMMARY:黄历 · 冬月三十
+SUMMARY:丙戌日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n冬月三十\n\n🗓️ 干支\n丙午年 辛丑
  月 丙戌日\n\n✅ 宜\n祭祀、解除、馀事勿取\n\n❌ 忌\n诸
  事不宜\n\n🔎 值神\n青龙 · 黄道日 · 吉
@@ -802,10 +791,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-08@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
-SUMMARY:黄历 · 腊月初一
+SUMMARY:丁亥日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n腊月初一\n\n🗓️ 干支\n丙午年 辛丑
  月 丁亥日\n\n✅ 宜\n开市、交易、立券、纳财、纳畜、造
  畜稠、入宅、移徙、安床、开光、祈福、求嗣、动土\n\n
@@ -815,10 +804,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-09@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
-SUMMARY:黄历 · 腊月初二
+SUMMARY:戊子日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n腊月初二\n\n🗓️ 干支\n丙午年 辛丑
  月 戊子日\n\n✅ 宜\n安床、裁衣、交易、立券、入殓、移
  柩、安葬、除服、成服\n\n❌ 忌\n置产、嫁娶、出行、开
@@ -828,10 +817,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-10@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-SUMMARY:黄历 · 腊月初三
+SUMMARY:己丑日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n腊月初三\n\n🗓️ 干支\n丙午年 辛丑
  月 己丑日\n\n✅ 宜\n祭祀、解除、造畜稠、教牛马、针灸
  、馀事勿取\n\n❌ 忌\n嫁娶、动土、开池、安葬\n\n🔎 值
@@ -840,10 +829,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-11@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
-SUMMARY:黄历 · 腊月初四
+SUMMARY:庚寅日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n腊月初四\n\n🗓️ 干支\n丙午年 辛丑
  月 庚寅日\n\n✅ 宜\n沐浴、塑绘、开光、纳采、订盟、开
  市、交易、立券、纳财、起基、动土、定磉、放水、安
@@ -853,10 +842,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-12@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
-SUMMARY:黄历 · 腊月初五
+SUMMARY:辛卯日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n腊月初五\n\n🗓️ 干支\n丙午年 辛丑
  月 辛卯日\n\n✅ 宜\n嫁娶、出行、理发、安床、启钻、安
  葬、修坟、开市、交易、立券、纳财、开池、牧养\n\n❌ 
@@ -866,14 +855,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chinese-calendar-2027-01-13@festival-calendar
-DTSTAMP:20261114T002137Z
+DTSTAMP:20261114T183314Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
-SUMMARY:黄历 · 腊月初六
+SUMMARY:壬辰日 · 辛丑月 · 丙午年
 DESCRIPTION:📅 农历\n腊月初六\n\n🗓️ 干支\n丙午年 辛丑
  月 壬辰日\n\n✅ 宜\n解除、平治道涂、馀事勿取\n\n❌ 忌\
  n移徙、入宅、掘井、造庙、栽种、针灸、治病、开池\n\n
  🔎 值神\n白虎 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2027-01-14@festival-calendar
+DTSTAMP:20261114T183314Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:癸巳日 · 辛丑月 · 丙午年
+DESCRIPTION:📅 农历\n腊月初七\n\n🗓️ 干支\n丙午年 辛丑
+ 月 癸巳日\n\n✅ 宜\n嫁娶、祭祀、开光、伐木、出火、拆
+ 卸、入宅、移徙、修造、动土、上梁、安床、纳畜\n\n❌ 
+ 忌\n开市、行丧、栽种、出行、出货财、安葬、置产、词
+ 讼、治病\n\n🔎 值神\n玉堂 · 黄道日 · 吉
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -42,6 +42,24 @@ class CalendarTests(unittest.TestCase):
         self.assertTrue(chinese.day_details(date(2026, 2, 3))["ganzhi"].startswith("乙巳年 己丑月"))
         self.assertTrue(chinese.day_details(date(2026, 2, 4))["ganzhi"].startswith("丙午年 庚寅月"))
 
+    def test_ganzhi_event_titles(self):
+        now = datetime(2026, 11, 15, tzinfo=timezone.utc)
+        samples = [
+            (date(2026, 11, 15), "癸巳日 · 己亥月 · 丙午年"),
+            (date(2026, 8, 21), "丁卯日 · 丙申月 · 丙午年"),
+            (date(2026, 2, 3), "戊申日 · 己丑月 · 乙巳年"),
+            (date(2026, 2, 4), "己酉日 · 庚寅月 · 丙午年"),
+            (date(2025, 7, 25), "乙未日 · 癸未月 · 乙巳年"),
+        ]
+        for day, expected in samples:
+            with self.subTest(day=day):
+                item = chinese.day_details(day)
+                data = chinese.render_calendar([item], "每日黄历", now)
+                unfolded = data.decode("utf-8").replace("\r\n ", "")
+                summaries = [line for line in unfolded.split("\r\n") if line.startswith("SUMMARY:")]
+                self.assertEqual(summaries, ["SUMMARY:" + expected])
+                self.assertIn("DESCRIPTION:" + chinese.escape_text(chinese.description(item)) + "\r\n", unfolded)
+
     def test_rolling_window_format_and_stable_uid(self):
         now = datetime(2026, 12, 31, 12, tzinfo=timezone.utc)
         with tempfile.TemporaryDirectory() as temp:

@@ -1,8 +1,8 @@
 # 每日黄历 · Chinese calendar
 
-每天一个全天事件，过去 7 天 + 今天 + 未来 60 天，共 68 天。标题是「黄历 · 农历日期」，备注包含带 emoji 的农历、干支、宜、忌、值神五个段落。无来源行、无时辰、无提醒；长文字由客户端自然换行。
+每天一个全天事件，过去 7 天 + 今天 + 未来 60 天，共 68 天。标题是「日干支 · 月干支 · 年干支」（如「丁卯日 · 丙申月 · 丙午年」），备注包含带 emoji 的农历、干支、宜、忌、值神五个段落。无来源行、无时辰、无提醒；长文字由客户端自然换行。
 
-订阅：https://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics
+订阅：https://1164337522l-maker.github.io/festival-calendar/chinese-calendar/daily.ics
 
 ## 数据来源与口径
 
