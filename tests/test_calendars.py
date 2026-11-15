@@ -69,12 +69,18 @@ class CalendarTests(unittest.TestCase):
             self.assertNotIn(b"\n", data.replace(b"\r\n", b""))
             self.assertTrue(all(len(line) <= 75 for line in data.split(b"\r\n")))
             unfolded = data.decode().replace("\r\n ", "")
-            self.assertEqual(unfolded.count("BEGIN:VEVENT"), 68)
+            config = json.loads((ROOT / "proj-chinese-calendar/config.json").read_text(encoding="utf-8"))
+            past, future = config["past_days"], config["future_days"]
+            count = past + future + 1
+            self.assertEqual(unfolded.count("BEGIN:VEVENT"), count)
             self.assertNotIn("VALARM", unfolded)
             self.assertNotIn("RRULE", unfolded)
             snapshot = json.loads((target / "snapshot.json").read_text(encoding="utf-8"))
             days = [date.fromisoformat(item["date"]) for item in snapshot["days"]]
-            self.assertEqual(days, [date(2026, 12, 24) + timedelta(days=i) for i in range(68)])
+            self.assertEqual(days, [date(2026, 12, 31) - timedelta(days=past) + timedelta(days=i) for i in range(count)])
+            self.assertEqual(len(set(days)), count)
+            self.assertEqual(snapshot["start_date"], days[0].isoformat())
+            self.assertEqual(snapshot["end_date"], days[-1].isoformat())
             for event in unfolded.split("BEGIN:VEVENT\r\n")[1:]:
                 props = dict(line.split(":", 1) for line in event.split("\r\nEND:VEVENT")[0].split("\r\n"))
                 start = datetime.strptime(props["DTSTART;VALUE=DATE"], "%Y%m%d").date()
@@ -83,7 +89,20 @@ class CalendarTests(unittest.TestCase):
             first_uids = {line for line in unfolded.splitlines() if line.startswith("UID:")}
             chinese.generate(date(2027, 1, 1), now + timedelta(days=1), target)
             next_uids = {line for line in (target / "daily.ics").read_text(encoding="utf-8").splitlines() if line.startswith("UID:")}
-            self.assertEqual(len(first_uids & next_uids), 67)
+            self.assertEqual(len(first_uids & next_uids), count - 1)
+
+    def test_widget_month_window(self):
+        config = json.loads((ROOT / "proj-chinese-calendar/config.json").read_text(encoding="utf-8"))
+        self.assertEqual((config["past_days"], config["future_days"]), (45, 70))
+        for today in (date(2026, 1, 1), date(2026, 11, 15), date(2026, 12, 31), date(2028, 2, 29)):
+            with self.subTest(today=today):
+                start = today - timedelta(days=config["past_days"])
+                end = today + timedelta(days=config["future_days"])
+                month_start = today.replace(day=1)
+                next_month = (month_start.replace(day=28) + timedelta(days=4)).replace(day=1)
+                month_end = next_month - timedelta(days=1)
+                self.assertLessEqual(start, month_start)
+                self.assertGreaterEqual(end, month_end)
 
     def test_failure_preserves_previous_subscription(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -171,6 +190,12 @@ class CalendarTests(unittest.TestCase):
             self.assertEqual((Path(temp) / "festival_extra.ics").read_bytes(), festivals.OUTPUT_PATH.read_bytes())
             self.assertEqual((Path(temp) / "festival_zh.ics").read_bytes(), festivals.ZH_OUTPUT_PATH.read_bytes())
             self.assertTrue((Path(temp) / "chinese-calendar/daily.ics").is_file())
+            widget_json = Path(temp) / "chinese-calendar/snapshot.json"
+            self.assertEqual(widget_json.read_bytes(), (ROOT / "proj-chinese-calendar/snapshot.json").read_bytes())
+            published = json.loads(widget_json.read_text(encoding="utf-8"))
+            self.assertTrue(published["days"])
+            required = {"date", "lunar_date", "ganzhi", "yi", "ji", "deity", "day_type", "luck"}
+            self.assertTrue(all(required.issubset(day) for day in published["days"]))
             self.assertTrue((Path(temp) / "festivals/index.html").is_file())
 
 

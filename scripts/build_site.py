@@ -19,6 +19,7 @@ def build_site(destination=ROOT / "_site"):
     for source, target in (("doc-festivals", "festivals"), ("doc-chinese-calendar", "chinese-calendar")):
         shutil.copytree(ROOT / source, destination / target, dirs_exist_ok=True)
     shutil.copy2(ROOT / "proj-chinese-calendar/daily.ics", destination / "chinese-calendar/daily.ics")
+    shutil.copy2(ROOT / "proj-chinese-calendar/snapshot.json", destination / "chinese-calendar/snapshot.json")
     (destination / ".nojekyll").touch()
     print("Site assembled; bilingual and Chinese festival subscriptions preserved.")
 
